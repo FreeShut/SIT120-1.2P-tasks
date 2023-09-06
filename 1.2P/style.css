@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px (like mobile devices) */
+    body {
+        font-size: 0.9rem;
+    }
+}

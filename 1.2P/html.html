@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.4/dist/vue.js"></script>
+    <title>2.1P - Vue.js Method Demonstrations</title>
+</head>
+
+<body>
+
+    <div id="string-app">
+        <h2>String Methods:</h2>
+        Base string: {{ baseString }}<br> Lowercased: {{ lowercased }}<br> Uppercased: {{ uppercased }}<br> Substringed: {{ substringed }}<br> Replaced: {{ replaced }}<br> Character at position 1: {{ charAtPosition }}
+    </div>
+
+    <div id="number-app">
+        <h2>Number Methods:</h2>
+        Base number: {{ baseNumber }}<br> Rounded: {{ rounded }}<br> Fixed (2 decimal places): {{ fixed }}<br> Exponential (2 digits): {{ exponential }}<br> As a string: {{ stringed }}<br> Parsed integer: {{ parsed }}
+    </div>
+
+    <div id="array-app">
+        <h2>Array Methods:</h2>
+        Base array: {{ baseArray }}<br> Joined: {{ joined }}<br> Sliced: {{ sliced }}<br> Reversed: {{ reversed }}<br> String spliced: {{ stringSpliced }}<br> Number after splicing: {{ numberSpliced }}
+    </div>
+
+    <div id="date-app">
+        <h2>Date Methods:</h2>
+        Current date: {{ currentDate }}<br> ISO String format: {{ dateISOString }}<br> Locale format: {{ dateLocale }}<br> UTC Hours: {{ dateUTCHours }}<br> Milliseconds since Epoch: {{ millisecondsSinceEpoch }}<br> Specific date (January 1, 2023): {{
+        specificDate }}
+    </div>
+
+    <div id="function-app">
+        <h2>Function Methods:</h2>
+        Result from 'apply': {{ resultApply }}<br> Result from 'bind': {{ resultBind }}
+    </div>
+
+    <!-- Import the T1.js file -->
+    <script src="java.js"></script>
+
+</body>
+
+</html>
